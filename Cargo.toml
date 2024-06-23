@@ -13,7 +13,7 @@ features = ["bevy/x11"]
 all-features = true
 
 [features]
-default = ["open_url", "default_fonts", "render"]
+default = ["default_fonts", "render", "serde"]
 immutable_ctx = []
 manage_clipboard = ["arboard", "thread_local"]
 open_url = ["webbrowser"]
